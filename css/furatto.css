@@ -5,8 +5,10 @@
 }
 .search{
   width: 27px;
-  position: fixed;
-  z-index: 2;
+  height: 27px;
+}
+.mapa{
+  margin-top: 90px;
 }
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
