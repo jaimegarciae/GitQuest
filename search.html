@@ -8,6 +8,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/furatto.js"> </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  	<script type="text/javascript" src="js/geoMap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+     $("#map_canvas").geolocateMap({
+          google_maps: {
+            zoom: 17
+          },
+          locate_me: true,
+          locate_me_marker: 
+            {
+              "sync_inputs": {
+                address: '#map-location'
+              },
+              draggable: true
+            }
+        });
+    });
+
+    </script>
 </head>
 <body>
 	<header>
@@ -30,7 +51,11 @@
 		<div class="row">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<img class="mapa" src="images/mapa.png">				
+				<input id="map-location" type="search">
+				<div id="map_canvas">
+
+
+				</div>
 			</div>
 			<div class="col-2"></div>
 		</div>
