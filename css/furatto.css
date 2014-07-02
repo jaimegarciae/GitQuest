@@ -1,7 +1,7 @@
 /* My classes */
 .logo{
-  margin-top: 120px;
-  width: 300px;
+  margin-top: 25%;
+  width: 40%;
 }
 .search{
   width: 27px;
@@ -21,6 +21,9 @@
 .profile{
   width: 100%;
   height: 100%;
+}
+.contact{
+  width: 50%;
 }
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
 
@@ -302,9 +305,9 @@ button.primary.active, button.primary:active, .button.primary.active, .button.pr
 }
 /* line 115, ../../scss/furatto/_buttons.scss */
 button.primary.alpha, .button.primary.alpha {
-  border: 1px solid #3498db;
+  border: 1px solid #4671FA;
   background: rgba(0, 0, 0, 0);
-  color: #3498db;
+  color: #4671FA;
 }
 /* line 120, ../../scss/furatto/_buttons.scss */
 button.primary.alpha:hover, .button.primary.alpha:hover {
@@ -2012,6 +2015,7 @@ h1 {
 /* line 133, ../../scss/furatto/_typography.scss */
 h2 {
   font-size: 1.75rem;
+  color: white;
 }
 
 /* line 134, ../../scss/furatto/_typography.scss */
@@ -3084,7 +3088,7 @@ table.bordered th, table.bordered td {
     display: none !important;
   }
 }
-/* line 165, ../../scss/furatto/_modal.scss */
+/* line 165, ../../scss/furatto/_.scss */
 .modal {
   position: absolute;
   height: auto;
@@ -3135,7 +3139,8 @@ table.bordered th, table.bordered td {
 }
 /* line 172, ../../scss/furatto/_modal.scss */
 .modal .modal-content .modal-footer {
-  padding: 0.625rem 0;
+  padding: 3.625rem 0;
+  text-align: center;
 }
 /* line 176, ../../scss/furatto/_modal.scss */
 .modal.alpha {
@@ -3156,13 +3161,12 @@ table.bordered th, table.bordered td {
 /* line 188, ../../scss/furatto/_modal.scss */
 .modal .modal-header {
   margin: 0;
-  padding: 0.375rem;
+  padding: 6.375rem;
   text-align: center;
   font-size: 2.375rem;
   font-weight: 300;
   opacity: 0.8;
-  background: rgba(0, 0, 0, 0.1);
-  color: white;
+  color: #4671FA;
 }
 
 /* line 193, ../../scss/furatto/_modal.scss */

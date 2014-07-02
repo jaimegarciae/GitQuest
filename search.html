@@ -44,18 +44,38 @@
 		   <ul class="pull-right">
 		     	<li><a href="#"><strong>Ayuda</strong></a></li>
 		     	<li><a href="/docs"><strong>Blog</strong></a></li>
-		     	<li><a href="/docs"><strong>@gitQuest</strong></a></li>
+		     	<li><a data-furatto="modal" data-target="#modal-1" data-transition="1" data-theme="alpha"><strong>@gitQuest</strong></a></li>
 		   </ul>
 		</nav>
 	</header>
+	<div class="modal" id="modal-1">
+		<div class="modal-header">
+			<strong>Contact gitQuest</strong>
+		</div>
+		<div class="modal-content">
+			<div>
+				<div class="row">
+					<div class="col-2"></div>
+					<div class="col-4">
+						<h2>Twitter</h2>
+						<a href="https://twitter.com/gitquest" target="_blank"><img class="contact" src="images/twitter.png"></a>
+					</div>
+					<div class="col-4">
+						<h2>Email</h2>
+						<a href="mailto:gitquest@gmail.com"><img class="contact" src="images/email.png"></a>
+					</div>
+				</div>
+				<div class="modal-footer">
+				    <a class="modal-close button alpha primary">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>	
 		<div class="row">
 			<div class="col-2"></div>
 			<div class="col-8">
 				<input id="map-location" type="search">
-				<div id="map_canvas">
-
-
-				</div>
+				<div id="map_canvas"></div>
 			</div>
 			<div class="col-2"></div>
 		</div>
