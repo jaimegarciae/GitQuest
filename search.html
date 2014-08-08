@@ -35,15 +35,12 @@
 		<nav class="navigation-bar fixed">
 		   <ul class="brand-section">
 			    <li class="brsand-name">
-			      	<a href="/" class="menu-trigger" id="trigger"><img src="images/logo.png"></a>
-			    </li>
-			    <li class="menu-toggle">
-			      	<a href="#">Menu</a>
+			      	<a href="index.html"><img src="images/logo.png"></a>
 			    </li>
 		   </ul>
 		   <ul class="pull-right">
-		     	<li><a href="#"><strong>Ayuda</strong></a></li>
-		     	<li><a href="/docs"><strong>Blog</strong></a></li>
+		     	<li><a href="ayuda.html"><strong>Ayuda</strong></a></li>
+		     	<li><a href="blog.html"><strong>Blog</strong></a></li>
 		     	<li><a data-furatto="modal" data-target="#modal-1" data-transition="1" data-theme="alpha"><strong>@gitQuest</strong></a></li>
 		   </ul>
 		</nav>
@@ -89,15 +86,16 @@
 			</div>
 			<div class="col-3"></div>
 			<div class="col-2">
-				<form action="">
-					<select name="sort">
-					<option value="options">Ordenar por..</option>
-					<option value="skills">Skills</option>
-					<option value="forks">Forks</option>
-					<option value="followers">Followers</option>
-					<option value="repositories">Repositories</option>
-					</select>
-				</form>
+				<form action="" method="get" accept-charset="utf-8">
+			        <select name="" id="">
+			          <option>Ordenar por..</option>
+			          <option>Followers</option>
+			          <option>Forks</option>
+			          <option>Contributions</option>
+			          <option>Skills</option>
+			          <option>Repositories</option>
+			        </select>
+			    </form>
 			</div>
 		</div>
 		<div class="row">
